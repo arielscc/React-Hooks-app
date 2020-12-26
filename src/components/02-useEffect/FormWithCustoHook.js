@@ -1,15 +1,14 @@
 import React, { useEffect } from 'react';
 import { useForm } from '../../hooks/useForm';
 
-export const FormWithCustoHook = (
-  initialValue = {
+export const FormWithCustoHook = () => {
+  const initialValue = {
     name: '',
     email: '',
     password: '',
-  }
-) => {
-  const [formValues, handleInputChange, setFormValues] = useForm(initialValue);
+  };
 
+  const [formValues, handleInputChange, setFormValues] = useForm(initialValue);
   const { name, email, password } = formValues;
 
   useEffect(() => {

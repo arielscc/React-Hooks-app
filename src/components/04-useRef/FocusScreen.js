@@ -1,10 +1,36 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 export const FocusScreen = () => {
+  const initialState = {
+    value: '',
+    copy: false,
+  };
+  const [state, setState] = useState(initialState);
   const inputRef = useRef();
 
+  const { value, copy } = state;
+
   const handleClick = () => {
-    inputRef.current.select();
+    const input = inputRef.current;
+    input.select();
+    document.execCommand('copy');
+    setState({
+      ...state,
+      copy: true,
+    });
+    setTimeout(() => {
+      setState({
+        ...state,
+        copy: false,
+      });
+    }, 500);
+  };
+
+  const handleChange = (e) => {
+    setState({
+      ...state,
+      value: e.target.value,
+    });
   };
   return (
     <div className="w-4/5 m-auto mt-20 text-gray-800">
@@ -12,6 +38,8 @@ export const FocusScreen = () => {
       <hr />
       <input
         ref={inputRef}
+        value={value}
+        onChange={handleChange}
         className=" w-full my-2 rounded-lg border py-2 px-5 shadow-sm"
         placeholder="Nombre"
       />
@@ -21,6 +49,7 @@ export const FocusScreen = () => {
       >
         Focus
       </button>
+      {copy && <p>Copied!</p>}
     </div>
   );
 };
