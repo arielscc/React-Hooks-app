@@ -7,7 +7,11 @@ import ReactDOM from 'react-dom';
 // import { SimpleTable } from './components/02-useEffect/SimpleTable';
 // import { FormWithCustoHook } from './components/02-useEffect/FormWithCustoHook';
 // import { MultipleCustomHook } from './components/03-Examples/MultipleCustomHook';
-import { FocusScreen } from './components/04-useRef/FocusScreen';
+// import { FocusScreen } from './components/04-useRef/FocusScreen';
+// import MediaPlayer from './components/04-useRef/MediaPlayer';
+// import { ScrollAnimation } from './components/04-useRef/ScrollAnimation';
+// import { RenderApp } from './components/04-useRef/RenderApp';
+import { LoadingApp } from './components/04-useRef/LoadingApp';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
 // import { Memorize } from './components/06-memos/Memorize';
@@ -15,4 +19,4 @@ import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { CallBackHook } from './components/06-memos/CallBackHook';
 // import { Padre } from './components/07-tarea-memo/Padre';
 
-ReactDOM.render(<FocusScreen />, document.getElementById('root'));
+ReactDOM.render(<LoadingApp />, document.getElementById('root'));

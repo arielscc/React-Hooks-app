@@ -40,11 +40,11 @@ export const FocusScreen = () => {
         ref={inputRef}
         value={value}
         onChange={handleChange}
-        className=" w-full my-2 rounded-lg border py-2 px-5 shadow-sm"
+        className=" w-full my-2 rounded-lg border py-2 px-5 shadow-sm focus:outline-none"
         placeholder="Nombre"
       />
       <button
-        className="rounded-lg bg-indigo-500 text-white font-semibold  py-1 px-6"
+        className="rounded-lg bg-indigo-500 text-white font-semibold  py-1 px-6 focus:outline-none"
         onClick={handleClick}
       >
         Focus
