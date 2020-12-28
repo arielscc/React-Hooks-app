@@ -11,12 +11,12 @@ import ReactDOM from 'react-dom';
 // import MediaPlayer from './components/04-useRef/MediaPlayer';
 // import { ScrollAnimation } from './components/04-useRef/ScrollAnimation';
 // import { RenderApp } from './components/04-useRef/RenderApp';
-import { LoadingApp } from './components/04-useRef/LoadingApp';
+// import { LoadingApp } from './components/04-useRef/LoadingApp';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
-// import { Memorize } from './components/06-memos/Memorize';
+import { Memorize } from './components/06-memos/Memorize';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { CallBackHook } from './components/06-memos/CallBackHook';
 // import { Padre } from './components/07-tarea-memo/Padre';
 
-ReactDOM.render(<LoadingApp />, document.getElementById('root'));
+ReactDOM.render(<Memorize />, document.getElementById('root'));
