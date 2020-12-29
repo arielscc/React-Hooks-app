@@ -14,9 +14,10 @@ import ReactDOM from 'react-dom';
 // import { LoadingApp } from './components/04-useRef/LoadingApp';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
-import { Memorize } from './components/06-memos/Memorize';
+// import { Memorize } from './components/06-memos/memo/Memorize';
+// import { App } from './components/06-memos/algo/App';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { CallBackHook } from './components/06-memos/CallBackHook';
-// import { Padre } from './components/07-tarea-memo/Padre';
+import { Padre } from './components/07-tarea-memo/Padre';
 
-ReactDOM.render(<Memorize />, document.getElementById('root'));
+ReactDOM.render(<Padre />, document.getElementById('root'));
