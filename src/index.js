@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom';
 // import { CallBackHook } from './components/06-memos/CallBackHook';
 // import { Padre } from './components/07-tarea-memo/Padre';
 // import './components/08-useReducer/intro-reducer';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
+import { CounterApp } from './components/08-useReducer/ReducerYt/CounterApp';
 
-import { TodoApp } from './components/08-useReducer/TodoApp';
-
-ReactDOM.render(<TodoApp />, document.getElementById('root'));
+ReactDOM.render(<CounterApp />, document.getElementById('root'));
