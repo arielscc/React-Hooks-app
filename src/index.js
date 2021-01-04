@@ -23,6 +23,7 @@ import ReactDOM from 'react-dom';
 // import './components/08-useReducer/intro-reducer';
 // import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { CounterApp } from './components/08-useReducer/ReducerYt/CounterApp';
-import { Todo } from './components/08-useReducer/ReducerYt/Todo';
+// import { Todo } from './components/08-useReducer/ReducerYt/Todo';
+import { MainApp } from './components/09-useContext/MainApp';
 
-ReactDOM.render(<Todo />, document.getElementById('root'));
+ReactDOM.render(<MainApp />, document.getElementById('root'));
