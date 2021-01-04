@@ -22,6 +22,7 @@ import ReactDOM from 'react-dom';
 // import { Padre } from './components/07-tarea-memo/Padre';
 // import './components/08-useReducer/intro-reducer';
 // import { TodoApp } from './components/08-useReducer/TodoApp';
-import { CounterApp } from './components/08-useReducer/ReducerYt/CounterApp';
+// import { CounterApp } from './components/08-useReducer/ReducerYt/CounterApp';
+import { Todo } from './components/08-useReducer/ReducerYt/Todo';
 
-ReactDOM.render(<CounterApp />, document.getElementById('root'));
+ReactDOM.render(<Todo />, document.getElementById('root'));
