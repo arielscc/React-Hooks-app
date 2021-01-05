@@ -24,6 +24,7 @@ import ReactDOM from 'react-dom';
 // import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { CounterApp } from './components/08-useReducer/ReducerYt/CounterApp';
 // import { Todo } from './components/08-useReducer/ReducerYt/Todo';
-import { MainApp } from './components/09-useContext/MainApp';
+// import { MainApp } from './components/09-useContext/MainApp';
+import { MoviesApp } from './components/09-useContext/YouTube/MoviesApp';
 
-ReactDOM.render(<MainApp />, document.getElementById('root'));
+ReactDOM.render(<MoviesApp />, document.getElementById('root'));
