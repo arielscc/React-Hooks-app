@@ -3,9 +3,8 @@ import { useFetch } from '../../hooks/useFetch';
 import { ThreeDots } from 'svg-loaders-react';
 import { useCounter } from '../../hooks/useCounter';
 
-export const MultipleCustomHook = (_) => {
+export const MultipleCustomHook = () => {
   const { counter, increment } = useCounter();
-
   const { loading, data } = useFetch(
     `https://www.breakingbadapi.com/api/quotes/${counter}`
   );

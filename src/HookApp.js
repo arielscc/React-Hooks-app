@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function HookApp() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div>Hola a todos</div>;
 }
 
-export default HookApp
+export default HookApp;

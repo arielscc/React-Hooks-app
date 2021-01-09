@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en RealExampleRef Debe mostrarse correctamente 1`] = `
+<div
+  className="w-4/5 m-auto mt-20 text-gray-800"
+>
+  <h1
+    className="text-3xl text-center font-bold"
+  >
+    Real Example Ref
+  </h1>
+  <hr />
+  <button
+    onClick={[Function]}
+  >
+    ver
+  </button>
+</div>
+`;

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const TodoItem = React.memo(({ todo, index, handleToggle, handleDelete }) => {
-  console.log('Todo Item');
   return (
     <li
       key={todo.id}
@@ -14,7 +13,7 @@ const TodoItem = React.memo(({ todo, index, handleToggle, handleDelete }) => {
         'line-through bg-gradient-to-r from-indigo-500 to-indigo-300'
       }`}
     >
-      {todo.todo}
+      <p>{todo.todo}</p>
       <button
         onClick={() => handleDelete(todo.id)}
         className="py-1 px-2 rounded-md bg-red-600 font-bold text-white focus:outline-none"

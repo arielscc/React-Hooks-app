@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MultipleCustomHook } from '../03-Examples/MultipleCustomHook';
 
 export const RealExampleRef = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <div className="w-4/5 m-auto mt-20 text-gray-800">

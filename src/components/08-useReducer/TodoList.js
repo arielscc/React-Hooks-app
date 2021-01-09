@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import TodoItem from './TodoItem';
 
 const TodoList = React.memo(({ todos, handleToggle, handleDelete }) => {
-  console.log('Todo List');
   return (
     <ul>
       {todos.map((todo, i) => (
