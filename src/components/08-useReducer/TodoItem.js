@@ -37,6 +37,8 @@ const TodoItem = React.memo(({ todo, index, handleToggle, handleDelete }) => {
   );
 });
 
+TodoItem.displayName = 'TodoItem';
+
 TodoItem.propTypes = {
   todo: PropTypes.object.isRequired,
   index: PropTypes.number.isRequired,

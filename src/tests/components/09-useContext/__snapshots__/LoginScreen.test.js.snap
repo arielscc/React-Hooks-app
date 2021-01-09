@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente LoginScreen debe de mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    LoginScreen
+  </h1>
+  <button
+    onClick={[Function]}
+  >
+    cambio
+  </button>
+</div>
+`;

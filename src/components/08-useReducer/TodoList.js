@@ -18,6 +18,8 @@ const TodoList = React.memo(({ todos, handleToggle, handleDelete }) => {
   );
 });
 
+TodoList.displayName = 'TodoList';
+
 TodoList.propTypes = {
   todos: PropTypes.array.isRequired,
   handleToggle: PropTypes.func.isRequired,
